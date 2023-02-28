@@ -1,0 +1,119 @@
+{
+  "movies": [
+    {
+      "title": "The Godfather",
+      "director": {
+        "firstName": "Francis Ford",
+        "lastName": "Coppola"
+      },
+      "genre": "Drama",
+      "date": "1972",
+      "actors": [
+        {
+          "firstName": "Marlon",
+          "lastName": "Brando"
+        },
+        {
+          "firstName": "Al",
+          "lastName": "Pacino"
+        },
+        {
+          "firstName": "James",
+          "lastName": "Caan"
+        }
+      ]
+    },
+    {
+      "title": "The Shining",
+      "director": {
+        "firstName": "Stanley",
+        "lastName": "Kubrick"
+      },
+      "genre": "Horror",
+      "date": "1980",
+      "actors": [
+        {
+          "firstName": "Jack",
+          "lastName": "Nicholson"
+        },
+        {
+          "firstName": "Shelley",
+          "lastName": "Duvall"
+        },
+        {
+          "firstName": "Danny",
+          "lastName": "Lloyd"
+        }
+      ]
+    },
+    {
+      "title": "Tick, tick... BOOM!",
+      "director": {
+        "firstName": "Lin-Manuel",
+        "lastName": "Miranda"
+      },
+      "genre": "Musical",
+      "date": "2021",
+      "actors": [
+        {
+          "firstName": "Andrew",
+          "lastName": "Garfield"
+        },
+        {
+          "firstName": "Alexandra",
+          "lastName": "Shipp"
+        },
+        {
+          "firstName": "Robin",
+          "lastName": "de Jesus"
+        }
+      ]
+    },
+    {
+      "title": "Christopher Robin",
+      "director": {
+        "firstName": "Marc",
+        "lastName": "Forster"
+      },
+      "genre": "Family",
+      "date": "2018",
+      "actors": [
+        {
+          "firstName": "Ewan",
+          "lastName": "McGregor"
+        },
+        {
+          "firstName": "Hayley",
+          "lastName": "Atwell"
+        },
+        {
+          "firstName": "Bronte",
+          "lastName": "Carmichael"
+        }
+      ]
+    },
+    {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "director": {
+        "firstName": "Miloš",
+        "lastName": "Forman"
+      },
+      "genre": "Drama",
+      "date": "1975",
+      "actors": [
+        {
+          "firstName": "Jack",
+          "lastName": "Nicholson"
+        },
+        {
+          "firstName": "Louise",
+          "lastName": "Fletcher"
+        },
+        {
+          "firstName": "Sydney",
+          "lastName": "Lassick"
+        }
+      ]
+    }
+  ]
+}
