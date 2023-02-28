@@ -14,12 +14,8 @@ public class MovieLibrary {
         return movies;
     }
 
-    public static Movie getRandomMovie(MovieLibrary movieLibrary) {
-        return movieLibrary.getMovies().get(new Random().nextInt(movieLibrary.getMovies().size()));
-    }
-
     public static void printRandomMovie(MovieLibrary movieLibrary) {
-        System.out.println(MovieLibrary.getRandomMovie(movieLibrary).toString());
+        System.out.println(movieLibrary.getMovies().get(new Random().nextInt(movieLibrary.getMovies().size())).toString());
     }
 
     public void getMoviesBetweenDates() throws IOException {
