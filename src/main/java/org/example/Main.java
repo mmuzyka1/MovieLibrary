@@ -20,7 +20,7 @@ public class Main {
             int option = Integer.parseInt(reader.readLine());
             switch (option) {
                 case 1 -> movieLibrary.getMoviesBetweenDates();
-                case 2 -> System.out.println(MovieLibrary.getRandomMovie(movieLibrary).toString());
+                case 2 -> MovieLibrary.printRandomMovie(movieLibrary);
                 case 3 -> movieLibrary.getMoviesByActor();
             }
         }

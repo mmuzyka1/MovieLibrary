@@ -18,6 +18,10 @@ public class MovieLibrary {
         return movieLibrary.getMovies().get(new Random().nextInt(movieLibrary.getMovies().size()));
     }
 
+    public static void printRandomMovie(MovieLibrary movieLibrary) {
+        System.out.println(MovieLibrary.getRandomMovie(movieLibrary).toString());
+    }
+
     public void getMoviesBetweenDates() throws IOException {
         System.out.println("Please, enter the first year: ");
         int firstYear = Integer.parseInt(reader.readLine());
