@@ -1,27 +1,20 @@
 package org.example;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Main {
-
-    static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
     public static void main(String[] args) throws IOException {
 
         MovieLibrary movieLibrary = new ObjectMapper().readValue(new File("src/main/resources/movies.json"), MovieLibrary.class);
 
         while (true) {
             printMenu();
-            int option = Integer.parseInt(reader.readLine());
-            switch (option) {
-                case 1 -> movieLibrary.getMoviesBetweenDates();
+            switch (Integer.parseInt(InputReader.getInputFromUser())) {
+                case 1 -> movieLibrary.printMovies(movieLibrary.getMoviesBetweenDates());
                 case 2 -> MovieLibrary.printRandomMovie(movieLibrary);
-                case 3 -> movieLibrary.getMoviesByActor();
+                case 3 -> movieLibrary.printMovies(movieLibrary.getMoviesByActor());
             }
         }
     }
